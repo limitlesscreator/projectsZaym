@@ -53,7 +53,7 @@ if ($('*').is('#map') === true) {
             var _checkZoomRange = false;
             if (window.location.href.split('.').length > 2) {
                 _checkZoomRange = true;
-            }
+            } 
             Map.setBounds([[minL, minB], [maxR, maxT]], {
                 checkZoomRange: _checkZoomRange,
             });

@@ -1431,12 +1431,12 @@ body .ui-tooltip {
     line-height: 14px;
 }
 .calculate-item .ruble {
-    background: url(../images/ruble.svg);
+    background: url(../../../../avtomarket-markup/images/ruble.svg);
     width: 20px;
     height: 20px;
 }
 .calculate-item .ruble-white {
-    background: url(../images/ruble-white.svg);
+    background: url(../../../../avtomarket-markup/images/ruble-white.svg);
     width: 20px;
     height: 20px;
 }
@@ -1750,7 +1750,7 @@ body .ui-tooltip {
     color: #999;
 }
 .chosen-container-single .chosen-single .arrow-select {
-    background: url(../images/arrow-select.svg);
+    background: url(../../../../avtomarket-markup/images/arrow-select.svg);
     width: 10px;
     height: 6px;
     background-repeat: no-repeat;
