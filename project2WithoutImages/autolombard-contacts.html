@@ -62,7 +62,7 @@
             <div class=row>
                 <div class="col-md-12">
                     <div class=content-on-figure>
-                        <h1 style="font-weight: bold" className='h1' >Кредит под залог ПТС <span class="titleFirst1"></span></h1>
+                        <h1 style="font-weight: bold" className='h1' >Кредит под залог легкового авто ПТС <span class="titleFirst1"></span></h1>
 
                         <div class="p1">Авто остается у Вас</div>
 
@@ -4643,16 +4643,15 @@ if(screenWidth > 760){var script = document.createElement('script');
                 }
             </script>
             <script>
-                console.log('hi')
                 let link = localStorage.getItem('link')
                 localStorage.setItem('link', newLinkAnother ? newLinkAnother : 'moskva.credit-pod-avto.ru')
 
 
                 window.onload = async () =>{
-                     localStorage.setItem('link', link ? link : 'moskva.credit-pod-avto.ru');
+                    await localStorage.setItem('link', link ? link : 'moskva.credit-pod-avto.ru');
 
                     var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?${link}`;
-                     window.history.pushState({path:newurl},'',newurl);
+                    await window.history.pushState({path:newurl},'',newurl);
                 };
 
             </script>
