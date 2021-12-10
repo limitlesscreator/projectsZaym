@@ -1,5 +1,10 @@
 /*font-family: 'Roboto Condensed', sans-serif;   2сайт   */
+/*font-family: 'Lato', sans-serif; 3-ий сайт  не работает так как инглиш*/
+/*font-family: 'Nunito', sans-serif; 3ий сайт*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;900&display=swap');
+
 @font-face {
     font-family: MontserratL;
     src: url(../font/Montserrat-Light.eot);
@@ -49,7 +54,7 @@ main {
 }
 body {
     margin: 0;
-    font-family: 'Roboto Condensed', sans-serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.8;
@@ -279,7 +284,7 @@ template {
     margin-bottom: .625rem;
     font-weight: 700;
     line-height: 1.3;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 h1 {
     font-size: 36px;
@@ -1970,13 +1975,13 @@ textarea.form-control {
     background-color: transparent;
     border: 2px solid transparent;
     padding: 5px 17px;
-    border-radius: 25px;
+    border-radius: 2px;
     font-size: 14px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 0.5px;
 }
 @media screen and (prefers-reduced-motion:reduce) {
@@ -2207,22 +2212,44 @@ a.btn.disabled, fieldset:disabled a.btn {
     border-color: #c69500;
     box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5);
 }
+html{
+    scroll-behavior: smooth;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #95999c;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    z-index: 9000;
+}
+.gotopbtn:hover{
+    color: white
+}
+
+
 .btn-danger {
     color: #fff;
-    background: #ff6801
+    background: #b86023;
 }
 .btn-danger:hover {
     color: #fff;
-    background-color: #eb5757;
-    border-color: #eb5757;
+    background-color: #b86023;
+    border-color: #984f1d;
     box-shadow: 0 4px 20px rgba(221, 19, 19, .5);
 }
 .btn-danger.focus, .btn-danger:focus {
     box-shadow: 0 4px 20px rgba(221, 19, 19, .5);
 }
 .btn-danger.disabled, .btn-danger:disabled {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #b86023;
+    border-color: #b86023;
 }
 .btn-danger:not([disabled]):not(.disabled).active, .btn-danger:not([disabled]):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
     color: #fff;
@@ -2252,15 +2279,15 @@ a.btn.disabled, fieldset:disabled a.btn {
     box-shadow: 0 4px 20px rgb(255 255 255 / 50%)
 }
 .btn-line-red {
-    color: #eb5757;
+    color: #984f1d;
     background: transparent;
-    border-color: #eb5757;
+    border-color: #b86023;
     text-decoration: none !important;
 }
 .btn-line-red:hover {
-    color: #eb5757;
+    color: #984f1d;
     background-color: #ffffff1a;
-    border-color: #eb5757;
+    border-color: #b86023;
     box-shadow: 0 4px 20px rgba(221, 19, 19, .5);
 }
 .btn-line-red.focus, .btn-line-red:focus {
@@ -2271,7 +2298,7 @@ a.btn.disabled, fieldset:disabled a.btn {
     border-color: #0000004f;
 }
 .btn-line-red:not([disabled]):not(.disabled).active, .btn-line-red:not([disabled]):not(.disabled):active, .show>.btn-line-red.dropdown-toggle {
-    color: #eb5757;
+    color: #984f1d;
     box-shadow: 0 4px 20px rgba(221, 19, 19, .5);
 }
 .btn-light {
@@ -8580,12 +8607,18 @@ a.text-dark:focus, a.text-dark:hover {
 }
 .owl-carousel .owl-prev {
     float: left;
-    background-image: url(../images/arrow-prev.svg);
+    background-image: url(../images/icon/arrow-prew.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .owl-carousel .owl-next {
     right: 0;
     float: right;
-    background-image: url(../images/arrow-next.svg);
+    background-image: url(../images/icon/arrow.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .reviews-2-bg .owl-carousel .owl-prev {
     float: left;
@@ -8803,7 +8836,7 @@ h1>a:focus, h1>a:hover, h2>a:focus, h2>a:hover, h3>a:focus, h3>a:hover, h4>a:foc
     display: inline-block;
 }
 .text-blue{
-    color: #2F80ED;
+    color: #1c4d8f;
     margin-right: 5px;
     font-family: 'MontserratB';
 }
@@ -9918,6 +9951,7 @@ img {
 .inner-navigation {
     height: 100%;
     float: left;
+    margin-left: 120px;
 }
 .extra-nav, .inner-nav {
     vertical-align: middle;
@@ -10946,6 +10980,7 @@ body.off-canvas-sidebar-open:after {
     font-size: 24px;
 }
 .off-canvas-li{
+    z-index: 100;
     margin-bottom: 40px;
 }
 .off-canvas-li li{
@@ -11689,7 +11724,7 @@ input.revenue span{
     position: relative;
     margin-bottom: 40px;
     font-size: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
 }
 .list-ul li:last-child {
@@ -11703,7 +11738,9 @@ input.revenue span{
     text-align: center;
     font-family: MontserratEB;
     font-style: normal;
-    background: url(../images/list-ul.svg);
+    background: url(../images/list-ul.png);
+    background-size: 35px 24px;
+    background-position: center;
     width: 34px;
     height: 10px;
     background-repeat: no-repeat;
@@ -13473,7 +13510,7 @@ span.days {
     max-width: 300px;
 }
 .ymaps-image-with-content {
-    background-image: url(../images/map-pointer.png)!important;
+    background-image: url(../images/bg/map-pointer.png)!important;
     width: 42px!important;
     height: 50px!important;
     background-size: 100%!important;
@@ -13745,10 +13782,10 @@ span.days {
     font-size: 18px;
     line-height: 33px;
     text-decoration-line: underline;
-    color: #2f80ed;
+    color: #1c4d8f;
     display: block;
     padding-right: 50px;
-    background: url(../images/arrow.svg);
+    background: url(../images/icon/arrow.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 36px;
@@ -14575,7 +14612,7 @@ a.police-item-link {
     text-decoration: underline;
 }
 .address-item-block {
-    background-image: url(../images/map-pointer.png);
+    background-image: url(../images/bg/map-pointer.png);
     background-repeat: no-repeat;
     background-position: left top;
     padding-left: 60px;
@@ -14737,6 +14774,7 @@ a.police-item-link {
 .soc-footer a {
     display: inline-block;
     vertical-align: middle;
+    margin-top: 10px;
 }
 .soc-footer a.soc-whatsapp:hover {
     background-color: transparent;
@@ -14751,22 +14789,39 @@ a.police-item-link {
     height: 35px;
 }
 .soc-vk {
-    background: url(../images/soc-vk.svg);
+    background: url(../images/soc-vk.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
 }
 .soc-f {
-    background: url(../images/soc-f.svg);
+    background: url(../images/soc-f.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin-top: 7px;
 }
 .soc-ok {
-    background: url(../images/soc-ok.svg);
+    background: url(../images/soc-ok.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+
 }
 .soc-tw {
-    background: url(../images/soc-tw.svg);
+    background: url(../images/soc-tw.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+
 }
 .soc-inst {
-    background: url(../images/soc-inst.svg);
+    background: url(../images/soc-inst.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+
 }
 .soc-whatsapp {
-    background: url(../images/whatsapp-line.svg);
+    background: url(../images/whatsapp-line.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+
     height: 30px;
     padding-left: 40px;
     padding-top: 3px;
@@ -14774,7 +14829,7 @@ a.police-item-link {
     color: #41515a;
 }
 .icon-item-span {
-    background-image: url(../images/telephone.svg);
+    background-image: url(../images/telephone.png);
     background-size: 20px;
     background-position: center;
     background-color: #ff6801;
@@ -14867,7 +14922,7 @@ a.police-item-link {
     width: auto;
     max-width: 180px;
     background: transparent;
-    color: #41515a;
+    color: #1c4d8f;
     border-radius: 0;
     padding: 15px 0 20px;
     margin-right: 30px;
@@ -15112,7 +15167,7 @@ ul.switcher li:hover .time-switch:before{
     line-height: normal;
     margin-bottom: 40px;
     font-weight: 700;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 0;
 }
 @media (max-width:767px) {
@@ -16071,7 +16126,7 @@ body main.manager-page {
 }
 .arrow-right:after{
     content: '';
-    background: url(../images/arrow.svg);
+    background: url(../images/icon/arrow.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 36px;
