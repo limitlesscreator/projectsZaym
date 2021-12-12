@@ -362,7 +362,7 @@ $(document).ready(function() {
 //ползунок-1
 (function() {
 
-    if ($('*').is('#slider-range-thousands') === false) {
+    if ($('*').is('#amount-thousands') === false) {
         return true;
     }
 
@@ -447,20 +447,20 @@ $(document).ready(function() {
         
 		var htmlPrice = type == 'type-parts' ? calculateParts(srokZaima, fullSummaZaima) : calculatePercents(srokZaima, fullSummaZaima);
         //htmlPrice += "&nbsp;" + '<span class="ruble"><img src="images/ruble.svg" alt="" /></span>';
-        
+
 		/*result_outptut.html(
             htmlPrice
         );*
-        
+
 		$('form.application-form input[name="amount_credit"]').val(summaZaima);
         $('form.application-form input[name="loan_term"]').val(srokZaima);
     }
 	*/
-	
+
 	var сalculate = function(srokZaima, summaZaima) {
         let type = 'revenue';
         let fullSummaZaima = (summaZaima * 1000);
-        
+
 		var htmlPrice = type == 'revenue' ? calculateParts(srokZaima, fullSummaZaima) : calculatePercents(srokZaima, fullSummaZaima);
 
 		document.getElementById('revenue').value = htmlPrice + ' ₽';
@@ -713,7 +713,7 @@ $(document).ready(function() {
 //ползунок-3
 (function() {
 
-    if ($('*').is('#slider-range-thousands') === false) {
+    if ($('*').is('#slider-range-thousands-3') === false) {
         return true;
     }
 
