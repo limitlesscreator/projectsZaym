@@ -751,7 +751,7 @@ body .ui-tooltip {
     color: #222;
 }
 .ui-widget-header {
-    background: linear-gradient(168.02deg, #ffd17f -2.47%, #eb5757 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     color: #222;
     font-weight: 700;
 }
@@ -759,7 +759,7 @@ body .ui-tooltip {
     color: #222;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: #EB5757;
+    background: #5759eb;
 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
     color: #555;

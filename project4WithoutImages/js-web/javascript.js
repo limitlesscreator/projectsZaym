@@ -48,6 +48,21 @@ $(".monthly-payment1").mask("99999999", {
     // completed: function(){ alert("Вы ввели номер: " + this.val()); }
 });
 
+//Удаление лого
+var perekhod = document.querySelector('.img-logo-top-onRed');
+var perekhod1 = document.querySelector('.img-logo-top-onWhite');
+window.addEventListener('scroll', function() {
+    if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+        console.log('go')
+        perekhod1.classList.remove('displayNone');
+        perekhod.classList.add('displayNone');
+    }
+    else {
+        perekhod.classList.remove('displayNone');
+        perekhod1.classList.add('displayNone');
+    }
+    console.log(document.documentElement.scrollTop)
+});
 
 //слайдер занятий
 $(document).ready(function() {

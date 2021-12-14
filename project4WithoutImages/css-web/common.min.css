@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 @font-face {
     font-family: MontserratL;
@@ -54,7 +55,7 @@ main {
 }
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.8;
@@ -284,7 +285,7 @@ template {
     margin-bottom: .625rem;
     font-weight: 700;
     line-height: 1.3;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
     font-size: 36px;
@@ -1981,7 +1982,7 @@ textarea.form-control {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 0.5px;
 }
 @media screen and (prefers-reduced-motion:reduce) {
@@ -2236,11 +2237,11 @@ html{
 
 .btn-danger {
     color: #fff;
-    background: #b86023;
+    background: #810f0f;
 }
 .btn-danger:hover {
     color: #fff;
-    background-color: #b86023;
+    background-color: #810f0f;
     border-color: #984f1d;
     box-shadow: 0 4px 20px rgba(221, 19, 19, .5);
 }
@@ -3839,7 +3840,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     text-align: center;
 }
 .reviews-2-bg{
-    background-image: url(../images/men.jpg);
+    background-image: url(../images/men.png);
     border-radius: 25px;
     padding: 50px;
     color: #fff;
@@ -4236,7 +4237,7 @@ ul.switcher li a,ul.switcher-2 li a, ul.switcher-3 li a {
     color: #ffff;
 }
 ul.switcher li.selected, ul.switcher li:hover,ul.switcher-2 li.selected, ul.switcher-2 li:hover, ul.switcher-3 li.selected, ul.switcher-3 li:hover {
-    background: linear-gradient(185.87deg, #eb5757 -40.32%, #ffd17f 139.18%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     color: #fff;
 }
 
@@ -4706,7 +4707,7 @@ a.badge-dark:focus, a.badge-dark:hover {
     text-align: center;
     white-space: nowrap;
     transition: width .6s ease;
-    background: linear-gradient(168.02deg, #ffd17f -2.47%, #eb5757 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
 }
 @media screen and (prefers-reduced-motion:reduce) {
     .progress-bar {
@@ -5133,7 +5134,7 @@ a.close.disabled, a.close.white.disabled {
 }
 .modal-content-red{
     padding: 60px 80px 0px;
-    background: linear-gradient(133.11deg, #EB5757 -3.04%, #FFD17F 125.57%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     border-radius: 25px 25px 0px 0px;
     color: #fff;
 }
@@ -10892,7 +10893,8 @@ body.off-canvas-sidebar-open:after {
 }
 
 .off-canvas-car-dark-grey{
-    background-image: url(../images/99586093.jpg);
+    background-image: url(../images/infiniti.jpg);
+    opacity: 0.2;
 }
 .off-canvas-car-white {
     background-image: url(../images/99586093_white.jpg);
@@ -11129,7 +11131,7 @@ body.off-canvas-sidebar-open:after {
     padding: 24px 24px 15px;
     font-family: MontserratB;
     line-height: 22px;
-    background: linear-gradient(168.02deg, #eb5757 -2.47%, #ffd17f 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     border-radius: 25px 25px 25px 0;
     letter-spacing: .5px;
 }
@@ -11724,7 +11726,7 @@ input.revenue span{
     position: relative;
     margin-bottom: 40px;
     font-size: 18px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 .list-ul li:last-child {
@@ -11762,7 +11764,7 @@ input.revenue span{
     content: '';
     left: 0;
     top: 12px;
-    background: url(../images/list-ul-thin.svg);
+    background: url(../images/list-ul-thin.png);
     width: 34px;
     height: 2px;
     background-repeat: no-repeat;
@@ -13232,7 +13234,7 @@ footer p {
     top: -13px;
 }
 .get-step-line {
-    background: linear-gradient(168.02deg, #ffd17f -2.47%, #eb5757 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     height: 5px;
     margin-bottom: 5px;
     width: 100%;
@@ -13328,7 +13330,7 @@ fieldset.mapOptions__region .regi {
     width: 100%;
     border: 0;
     padding: 12px 30px;
-    background: linear-gradient(174.69deg, #eb5757 -2.47%, #ffd17f 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     border-radius: 25px 25px 25px 0;
     font-family: MontserratB;
 }
@@ -13401,7 +13403,7 @@ fieldset.mapOptions__region span {
     color: #41515A;
 }
 .mapOptions__addresses.gradient {
-    background: linear-gradient(154.25deg, #EB5757 -2.47%, #FFD17F 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     color: #fff;
 }
 .mapOptions__addresses p {
@@ -15009,7 +15011,7 @@ ul.switcher li a {
     color: #ffff;
 }
 ul.switcher li.selected, ul.switcher li:hover {
-    background: linear-gradient(185.87deg, #eb5757 -40.32%, #ffd17f 139.18%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     color: #fff;
 }
 ul.switcher li:hover .time-switch:before{
@@ -15167,7 +15169,7 @@ ul.switcher li:hover .time-switch:before{
     line-height: normal;
     margin-bottom: 40px;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 0;
 }
 @media (max-width:767px) {
@@ -16114,7 +16116,7 @@ body main.manager-page {
 }
 .steps-money-template>li:after{
     content: '';
-    background: url(../images/arrow.svg);
+    background: url(../images/icon/arrow.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 36px;
@@ -16172,7 +16174,7 @@ body main.manager-page {
     }
 }
 .interlayer-1-red-orange{
-    background: linear-gradient(154.25deg, #EB5757 -2.47%, #FFD17F 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     border-radius: 3px;
     padding: 30px;
     color: #fff;
@@ -16318,7 +16320,9 @@ body main.manager-page {
     position: absolute;
     height: 32px;
     width: 32px;
-    background-image: url(../images/icon/icon_14.svg);
+    background-image: url(../images/icon/icon_14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     top: -15px;
     right: 15px;
 }
@@ -16337,11 +16341,15 @@ body main.manager-page {
 .requirements-text{
 
 }
+.displayNone{
+    display: none;
+}
 .image-max-height{
     height: 100%;
     background-position: center;
     box-shadow: 0px 30px 30px rgba(32, 85, 155, 0.2);
     border-radius: 25px;
+    background-position-x: -467px;
 }
 .introduction{
     margin-bottom: 15px;
@@ -16385,7 +16393,7 @@ body main.manager-page {
 
 }
 .bg-red{
-    background: linear-gradient(154.25deg, #EB5757 -2.47%, #FFD17F 132.78%);
+    background: linear-gradient(168.02deg, #ffd17f -2.47%, #5759eb 132.78%);
     border-radius: 3px;
     padding: 30px 30px 0;
     color: #fff;
@@ -16691,7 +16699,7 @@ body main.manager-page {
     border-radius: 0 25px 25px 0;
 }
 .offer-bg-incline.bg-1:after{
-    background-image: url(../images/woman-car-salon.jpg);
+    background-image: url(../images/girl.jpg);
 }
 .offer-bg-incline.bg-2:after{
     background-image: url(../images/man-car-salon.jpg);
