@@ -751,7 +751,7 @@ body .ui-tooltip {
     color: #222;
 }
 .ui-widget-header {
-    background: linear-gradient(168.02deg, #ffd17f -2.47%, #7d1212 132.78%);
+    background: linear-gradient(168.02deg, #FF6C00 -2.47%, #7d1212 132.78%);
     color: #222;
     font-weight: 700;
 }
@@ -1669,7 +1669,7 @@ body .ui-tooltip {
     background-color: transparent;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-    color: #2f80ed;
+    color: #1437AD;
     text-decoration: none;
 }
 .owl-theme .owl-nav .disabled {
@@ -1763,7 +1763,7 @@ body .ui-tooltip {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     outline: 0;
     font-family: MontserratB;
-    color: #2f80ed;
+    color: #1437AD;
     margin-right: 10px;
     vertical-align: middle;
     font-size: 20px;
