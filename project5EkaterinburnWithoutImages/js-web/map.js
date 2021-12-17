@@ -58,7 +58,7 @@ if ($('*').is('#map') === true) {
                 checkZoomRange: _checkZoomRange,
             });
             if (!_checkZoomRange) {
-                Map.setZoom(3);
+                Map.setZoom(14);
             }
 	}
 	
