@@ -69,7 +69,7 @@ body {
     text-align: left;
     background-color: #EEEEEE;
     letter-spacing: .01em;
-    background: url('../images/dragon.png');
+    background: url('../images/moneyPattern.png');
 }
 [tabindex="-1"]:focus {
     outline: 0!important;
@@ -2233,7 +2233,7 @@ html{
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    color: white;
+    color: #007046;
     font-size: 22px;
     z-index: 9000;
 }
@@ -9881,7 +9881,7 @@ img {
     height: 80px;
     z-index: 200;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
-    background: #EEEEEE;
+    background: #ffffff;
 }
 .header-main .header-top {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -10083,9 +10083,10 @@ img {
 .header .menu-item-span.color-menu,
 .header.header-small .menu-item-span,
 .header.header-main.header-white  .menu-item-span {
-    background-image: url(../images/boorger-color.svg);
+    background-image: url(../images/boorger-color.png);
     width: 31px;
     height: 24px;
+    background-size: contain;
 }
 .header .extra-nav>ul>li>a.active, .header .extra-nav>ul>li>a:hover, .header .inner-nav>ul>li>a.active, .header .inner-nav>ul>li>a:hover, .header.header-small .extra-nav>ul>li>a.active, .header.header-small .extra-nav>ul>li>a:hover, .header.header-small .inner-nav>ul>li>a.active, .header.header-small .inner-nav>ul>li>a:hover {
     color: rgba(34, 34, 34, .65);
@@ -10906,7 +10907,7 @@ body.off-canvas-sidebar-open:after {
 }
 
 .off-canvas-car-dark-grey{
-    background-image: url(../images/infiniti.jpg);
+    background-image: url(../images/cbr.jpg);
     opacity: 0.2;
 }
 .off-canvas-car-white {
@@ -16358,12 +16359,13 @@ body main.manager-page {
 }
 .questions-block-2 .question-answer .answer{
     color: #fff;
-    background-image: url(../images/bmw.jpg);
+    background-image: url(../images/newCarReview.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
     padding: 20px;
     border-radius: 25px;
+    background-position-y: -160px;
 }
 .requirements-text{
 
@@ -16705,7 +16707,7 @@ body main.manager-page {
 .offer-bg-incline:before{
     position: absolute;
     content: '';
-    background: #EEEEEE;
+    background: #ffffff;
     height: 101%;
     width: 250px;
     top: 0;
