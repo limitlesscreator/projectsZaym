@@ -14415,7 +14415,7 @@ input[type=radio]:checked+label:before {
 .interlayer-master:after {
     content: '';
     position: absolute;
-    background-image: url(../images/lexus.png);
+    background-image: url(../images/product/bluetruck.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -16709,7 +16709,7 @@ body main.manager-page {
     content: '';
     background: #ffffff;
     height: 101%;
-    width: 250px;
+    width: 350px;
     top: 0;
     -moz-transform: matrix(1, 0, -0.3, 1, 0, 0);
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0);
