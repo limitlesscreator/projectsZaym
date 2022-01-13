@@ -163,9 +163,9 @@ if ($is_exists && $domain_dots_count > 1) {
         $in_city = $subdomains[$subdomain]['inCity'];
         $address = $subdomains[$subdomain]['address'];
     } else {
-        $city = 'Москва';
-        $in_city = 'в Москве';
-        $address = 'улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)';
+        $city = 'Мытищи';
+        $in_city = 'в Мытищах';
+        $address = 'пр. Олимпийский, 29с2';
     }
 }
 /* END Setup city variables */
