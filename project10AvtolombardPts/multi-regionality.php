@@ -165,7 +165,7 @@ if ($is_exists && $domain_dots_count > 1) {
     } else {
         $city = 'Москва';
         $in_city = 'в Москве';
-        $address = 'улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)';
+        $address = 'пр. Олимпийский, 29с2';
     }
 }
 /* END Setup city variables */
