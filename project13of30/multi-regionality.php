@@ -163,9 +163,9 @@ if ($is_exists && $domain_dots_count > 1) {
         $in_city = $subdomains[$subdomain]['inCity'];
         $address = $subdomains[$subdomain]['address'];
     } else {
-        $city = 'Мытищи';
-        $in_city = 'в Мытищах';
-        $address = 'пр. Олимпийский, 29с2';
+        $city = 'Самара';
+        $in_city = 'в Самаре';
+        $address = 'пр. Степана Разина, 36А';
     }
 }
 /* END Setup city variables */
