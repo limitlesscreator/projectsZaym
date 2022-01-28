@@ -29,7 +29,7 @@ xhr.addEventListener('load', function () {
                 <ul className="cities-ul hoverClass" aria-label="Close" itemScope="itemScope" itemType="http://schema.org/SiteNavigationElement">
                     {citiesLetters[letter].map(el => {
                         return (
-                            <li key={el.subdomain} className="cities-li">
+                            <li onClick={() => {console.log('hi')}} key={el.subdomain} className="cities-li">
                                 <a href={window.location.protocol + '//' + el.subdomain + '.' + domain + window.location.pathname + window.location.search} className="cities-a" itemProp="url"> {el.city}</a>
                             </li>
                         )
