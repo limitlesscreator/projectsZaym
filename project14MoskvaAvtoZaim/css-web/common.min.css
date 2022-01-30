@@ -10080,8 +10080,9 @@ img {
     color:  #7C7B89;
 }
 .menu-item-span {
-    background-image: url(../images/boorger-color.png);
-    width: 31px;
+    background-image: url(../images/fourLinesBurger.png);
+    width: 100%;
+    width: 41px;
     height: 24px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -10090,9 +10091,11 @@ img {
 .header .menu-item-span.color-menu,
 .header.header-small .menu-item-span,
 .header.header-main.header-white  .menu-item-span {
-    background-image: url(../images/boorger-color.png);
-    width: 31px;
+    background-image: url(../images/fourLinesBurger.png);
+    width: 100%;
+    width: 41px;
     height: 24px;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .header .extra-nav>ul>li>a.active, .header .extra-nav>ul>li>a:hover, .header .inner-nav>ul>li>a.active, .header .inner-nav>ul>li>a:hover, .header.header-small .extra-nav>ul>li>a.active, .header.header-small .extra-nav>ul>li>a:hover, .header.header-small .inner-nav>ul>li>a.active, .header.header-small .inner-nav>ul>li>a:hover {
@@ -16806,7 +16809,7 @@ body main.manager-page {
     content: '';
     background: #ffffff;
     height: 101%;
-    width: 350px;
+    width: 230px;
     top: 0;
     -moz-transform: matrix(1, 0, -0.3, 1, 0, 0);
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0);
@@ -16825,7 +16828,7 @@ body main.manager-page {
     border-radius: 0 25px 25px 0;
 }
 .offer-bg-incline.bg-1:after{
-    background-image: url(../images/woman-car-salon.jpg);
+    background-image: url(../images/manSittinginCar.jpg);
 }
 .offer-bg-incline.bg-2:after{
     background-image: url(../images/man-car-salon.jpg);
