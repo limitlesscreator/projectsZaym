@@ -105,27 +105,29 @@ if ($('*').is('#map') === true) {
 			}
 		);
 
-		Map.pan([latitude, longitude],
-			{
-				duration: 400,
-				flying: true,
-				checkZoomRange: false,
-				callback: function (state) {
-					if (state == null) {
-						Map.zoomRange.get([latitude, longitude]).then(
-							function (zoomRange, err) {
-								if (!err) {
-									Map.setZoom(zoomRange[1] - 1);
+		setTimeout(() => {
+			Map.panTo([latitude, longitude],
+				{
+					duration: 400,
+					flying: true,
+					checkZoomRange: false,
+					callback: function (state) {
+						if (state == null) {
+							Map.zoomRange.get([latitude, longitude]).then(
+								function (zoomRange, err) {
+									if (!err) {
+										Map.setZoom(zoomRange[1] - 1);
+									}
 								}
-							}
-						);
-						Collection.add(PlaceMark);
-						Map.geoObjects.add(Collection);
-						PlaceMark.balloon.open();
+							);
+							Collection.add(PlaceMark);
+							Map.geoObjects.add(Collection);
+							PlaceMark.balloon.open();
+						}
 					}
 				}
-			}
-		);
+			);
+		},1000)
 	}
 
 }

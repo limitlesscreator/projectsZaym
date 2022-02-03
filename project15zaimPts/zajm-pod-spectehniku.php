@@ -78,7 +78,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="content-on-figure">
-                        <h1 class="h1"><span class="h1-span">Займы под залог ПТС </span><?=$in_city ?></h1>
+                        <h1 class="h1"><span class="h1-span">Займ под ПТС
+                                                             спецтехники  </span><?=$in_city ?></h1>
                         <div class="p1">Авто остается у Вас</div>
 
                         <ul class="list-ul-thin">
@@ -123,49 +124,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
+                <h3 class="h1"><span class="h1-span">Принимаем в залог  </span> любую спецтехнику</h3>
                 <div class="visible-on-wade visible-on-tablet">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="product-template-bg grey">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="element-img"
-                                             style="background-image: url(images/product/sedan4.jpg);"></div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="product-right">
-                                            <div class="element-title">Легковые авто</div>
-                                            <div class="element-text">Отечественные авто, иномарки</div>
-                                            <div class="element-wrap"><a href="#" class="btn btn-danger"
-                                                                         data-toggle="modal"
-                                                                         data-target="#CallPhone-ver-4">Оценить</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="product-template-bg grey">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="element-img"
-                                             style="background-image: url(images/product/truck4.jpg);"></div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="product-right">
-                                            <div class="element-title">Грузовые авто</div>
-                                            <div class="element-text">Газели, тягачи, фуры</div>
-                                            <div class="element-wrap"><a href="#" class="btn btn-danger"
-                                                                         data-toggle="modal"
-                                                                         data-target="#CallPhone-ver-4">Оценить</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="product-template-bg grey">
                                 <div class="row">
@@ -175,8 +136,8 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="product-right">
-                                            <div class="element-title">Спецтехника</div>
-                                            <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                            <div class="element-title">Тракторы</div>
+                                            <div class="element-text">Колесные и гусеничные</div>
                                             <div class="element-wrap"><a href="#" class="btn btn-danger"
                                                                          data-toggle="modal"
                                                                          data-target="#CallPhone-ver-4">Оценить</a>
@@ -191,12 +152,51 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="element-img"
-                                             style="background-image: url(images/product/motorbike4.jpg);"></div>
+                                             style="background-image: url(images/product/pogruzchik.jpg);"></div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="product-right">
-                                            <div class="element-title">Мототехника</div>
-                                            <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                            <div class="element-title">Погрузчики</div>
+                                            <div class="element-text">Вилочные ковшовые</div>
+                                            <div class="element-wrap"><a href="#" class="btn btn-danger"
+                                                                         data-toggle="modal"
+                                                                         data-target="#CallPhone-ver-4">Оценить</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="product-template-bg grey">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="element-img"
+                                             style="background-image: url(images/product/kran4.jpg);"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="product-right">
+                                            <div class="element-title">Краны</div>
+                                            <div class="element-text">Авто, башенные</div>
+                                            <div class="element-wrap"><a href="#" class="btn btn-danger data-toggle="
+                                                                         modal"
+                                                data-target="#CallPhone-ver-4"">Оценить</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="product-template-bg grey">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="element-img"
+                                             style="background-image: url(images/product/buldozer.jpg);"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="product-right">
+                                            <div class="element-title">Бульдозеры</div>
+                                            <div class="element-text">Гидравлические, механические</div>
                                             <div class="element-wrap"><a href="#" class="btn btn-danger"
                                                                          data-toggle="modal"
                                                                          data-target="#CallPhone-ver-4">Оценить</a>
@@ -212,35 +212,35 @@
                 <div class="visible-on-mobile">
                     <div class="owl-carousel owl-theme product">
                         <div class="product-template-bg grey">
-                            <div class="element-img" style="background-image: url(images/product/sedan4.jpg);"></div>
-                            <div class="product-right">
-                                <div class="element-title">Легковые авто</div>
-                                <div class="element-text">Отечественные авто, иномарки</div>
-                                <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
-                            </div>
-                        </div>
-                        <div class="product-template-bg grey">
-                            <div class="element-img" style="background-image: url(images/product/truck4.jpg);"></div>
-                            <div class="product-right">
-                                <div class="element-title">Грузовые авто</div>
-                                <div class="element-text">Газели, тягачи, фуры</div>
-                                <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
-                            </div>
-                        </div>
-                        <div class="product-template-bg grey">
                             <div class="element-img" style="background-image: url(images/product/tractor4.jpg);"></div>
                             <div class="product-right">
-                                <div class="element-title">Спецтехника</div>
-                                <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                <div class="element-title">Тракторы</div>
+                                <div class="element-text">Колесные и гусеничные</div>
                                 <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
                             </div>
                         </div>
                         <div class="product-template-bg grey">
                             <div class="element-img"
-                                 style="background-image: url(images/product/motorbike4.jpg);"></div>
+                                 style="background-image: url(images/product/pogruzchik.jpg);"></div>
                             <div class="product-right">
-                                <div class="element-title">Мототехника</div>
-                                <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                <div class="element-title">Погрузчики</div>
+                                <div class="element-text">Вилочные ковшовые</div>
+                                <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
+                            </div>
+                        </div>
+                        <div class="product-template-bg grey">
+                            <div class="element-img" style="background-image: url(images/product/kran4.jpg);"></div>
+                            <div class="product-right">
+                                <div class="element-title">Краны</div>
+                                <div class="element-text">Авто, башенные</div>
+                                <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
+                            </div>
+                        </div>
+                        <div class="product-template-bg grey">
+                            <div class="element-img" style="background-image: url(images/product/buldozer.jpg);"></div>
+                            <div class="product-right">
+                                <div class="element-title">Бульдозеры</div>
+                                <div class="element-text">Гидравлические, механические</div>
                                 <div class="element-wrap"><a href="#" class="btn btn-danger">Оценить</a></div>
                             </div>
                         </div>
@@ -250,6 +250,7 @@
         </div>
     </div>
 </section>
+
 <section id="advantages-2">
     <div class="container">
         <div class="row">
@@ -510,7 +511,7 @@
                             </div>
                         </div>
                         <div class="example-car-img"
-                             style="background-image: url(images/example-loan/mazda_1.png);"></div>
+                             style="background-image: url(images/product/buldozer3.png);background-size: 452px 301px; right: 100px"></div>
                     </div>
 
                     <div class="example-car left">
@@ -647,16 +648,13 @@
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Как получить займ под ПТС?</div>
+                                <div class="question">Можно ли получить займ под спецтехнику?
+                                </div>
                             </div>
                             <div class="col-md-8">
-                                <div class="answer">Оставить заявку на нашем сайте. Заполните анкету, сообщив данные для
-                                    оперативной связи. Наши менеджеры свяжутся с вами в ближайшее время.
-                                    Принять звонок нашего специалиста и передать данные по телефону. Просто сообщите
-                                    сведения о себе, размере дохода, месте трудоустройства или учёбы. Предоставлять
-                                    подтверждающую документацию не нужно.
-                                    Узнать решение. Мы сообщим его в срок от 10 минут. Если решение положительное, вы
-                                    получите автозайм под залог ПТС.
+                                <div class="answer">Да, у нас действует займ под залог спецтехники. Мы готовы
+                                    рассмотреть любые ликвидные транспортные средства. Обратившись к нам, вы сможете
+                                    получить до 80% от их стоимости.
                                 </div>
                             </div>
                         </div>
@@ -664,14 +662,14 @@
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Займ выдаётся наличными или на карту?
+                                <div class="question">Какую спецтехнику вы принимаете в залог?
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <div class="answer">Вы сами выбираете удобный способ получения денежных средств. Можно
-                                    взять займ на карту под залог ПТС или запросить выплату наличными. Заявку на
-                                    денежные средства удастся подать онлайн. Так вы сэкономите время на визите в наш
-                                    офис.
+                                <div class="answer">У нас можно оформить залог спецтехники под ПТС практически любого
+                                    вида. Мы можем взять в качестве обременения тракторы, погрузчики, катки, бульдозеры,
+                                    краны. Уточнить, подходит ли ваша спецтехника для передачи в залог, можно во время
+                                    предварительной консультации.
                                 </div>
                             </div>
                         </div>
@@ -679,76 +677,15 @@
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Автомобиль остаётся у вас?
+                                <div class="question">Какую сумму можно получить?
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <div class="answer">Нет, мы не требуем передавать транспортное средство. Достаточно лишь
-                                    предоставить ПТС. После оформления автозайма машина остаётся у вас. Вы сможете
-                                    продолжать ездить на ней. Ограничения накладываются лишь на совершение юридически
-                                    значимых действий, например, на продажу транспортного средства.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Можно ли взять займ по генеральной доверенностях?
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">Да, подобное возможно, если доверенность даёт такое право. Мы
-                                    активно сотрудничаем как с собственниками, так и с их представителями. Однако перед
-                                    тем, как получить деньги под залог ПТС по генеральной доверенности, проверьте, что
-                                    возможность оформления займа присутствует. Для этого детально изучите текст
-                                    документа и обговорите с собственником этот нюанс.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Что нужно для получения займа под ПТС?
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">Чтобы получить займ под ПТС автомобиля, вы должны предоставить
-                                    удостоверение личности, СТС и паспорт транспортного средства. Дополнительные
-                                    документы не требуются. Мы не спрашиваем трудовую книжку, справку о доходах. В
-                                    результате вам не придется тратить время на их подготовку.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Как быстро я получу деньги под залог ПТС?</div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">Мы работаем круглосуточно. Вы можете оставить заявку и получить
-                                    деньги под залог ПТС быстро. В среднем анализ обращения и процедура оформления
-                                    занимают от 20 до 40 минут. После того, как вы подпишите договор, мы перечислим
-                                    денежные средства.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Можно ли получить займ под ПТС на авто, которое находится в
-                                    лизинге или залоге?
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">Да, у нас можно взять займ под залог ПТС транспортного средства, на
-                                    которое оформлено обременение. Для вас действует специальная программа
-                                    рефинансирования. В ее рамках мы погасим предыдущий кредит, а также предоставим
-                                    дополнительную сумму на руки, если лимит позволяет. Воспользоваться услугой могут
-                                    даже лица с плохой кредитной историей.
+                                <div class="answer">Выдавая займ под залог ПТС онлайн спецтехники, мы учитываем
+                                    состояние транспортного средства, его возраст, пробег, тип, модель. На основании
+                                    данных проводится процедура оценки. Её осуществляют наши специалисты. Затем клиент
+                                    сможет узнать рыночную стоимость авто. Мы готовы предоставить до 80% от цены машины
+                                    или спецтехники в виде займа.
                                 </div>
                             </div>
                         </div>
@@ -802,75 +739,57 @@
                 <div class="owl-carousel owl-theme reviews-3">
                     <article class="review-bg-red-border">
                         <div class="red-border">
-                            <div class="review-text">Я обратился в автоломбард за займом под залог ПТС автомобиля, когда
-                                понял, что срочно нужны деньги на свадьбу дочери. Она оказалась в положении, и
-                                потребовалось срочно решать этот вопрос. У меня был относительно новый автомобиль 2015
-                                года выпуска. Просто продавать его не хотелось, поскольку это заняло бы время. Поэтому я
-                                обратился в Автоломбард. От сотрудничества остались только приятные впечатления. Мне
-                                быстро разъяснили все условия и сообщили, как будет проходить сотрудничество. Изначально
-                                я опасался, что машину могут отобрать, но авто осталось у меня.
+                            <div class="review-text">Я тот человек, у которого нет своей машины. Да-да, я существую.
+                                Зато у меня есть прекрасный трактор, поэтому я был очень даже рад, когда узнал, что
+                                автоломбарде выдают деньги под залог ПТС спецтехники. Мне как раз не хватало довольно
+                                приличной суммы, чтобы закончить строительство дома. Поэтому я принял решение заложить
+                                свой трактор. Всё равно был не сезон для работы на нем. Я в шоке, но мою заявку одобрили
+                                сразу, а технику оценили довольно высоко.
                             </div>
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Геннадий</div>
+                            <div class="review-name">Степан</div>
                         </div>
                     </article>
                     <article class="review-bg-red-border">
                         <div class="red-border">
-                            <div class="review-text">Хочу поблагодарить компанию за быстрое рассмотрение моей заявки,
-                                ответ дали практически сразу. Это первый автоломбард, в котором я брал займ под залог
-                                авто. Я не боялся обращаться в компанию, поскольку сразу понял, как они работают. В
-                                результате сотрудничество прошло быстро и чётко. У меня не возникло лишних вопросов.
-                                Представители автоломбарда готовы были поддержать меня на любом этапе оформления.
+                            <div class="review-text">Автоломбард под залог ПТС спецтехники согласился одобрить мне даже
+                                большую сумму, чем я запрашивал. Это неожиданно, особенно когда до этого банки
+                                отказывали мне в выдаче меньшего количества средств, ссылаясь на то, что я работаю
+                                неофициально. Круто, что для автоломбарда это не стало помехой. В результате я получил
+                                всю необходимую сумму и смог приобрести посевное оборудование.
                             </div>
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Андрей</div>
+                            <div class="review-name">Владимир</div>
                         </div>
                     </article>
                     <article class="review-bg-red-border">
                         <div class="red-border">
-                            <div class="review-text">Я пошла в автоломбард, потому что не могла взять классический
-                                кредит. Обстоятельства в моей жизни сложились так, что моя кредитная история оказалась
-                                испорчена. До этого я пыталась обращаться в несколько банков, но везде получила отказ.
-                                Поэтому займ в автоломбарде стал настоящим спасением. Изначально я переживала, что мою
-                                машину могут не принять. Однако весь процесс оформления прошел без затруднений. В
-                                результате мне начислили деньги на карту в день обращения.
+                            <div class="review-text">Я беру деньги под залог ПТС спецтехники не в первый раз. Это очень
+                                удобно, поскольку удаётся значительно повысить размер доступного лимита. Мне нравится,
+                                что компания не спрашивает справку о доходах, так как у меня нет возможности её
+                                предоставить.
                             </div>
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Алёна</div>
+                            <div class="review-name">Константин</div>
                         </div>
                     </article>
                     <article class="review-bg-red-border">
                         <div class="red-border">
-                            <div class="review-text">Очень нравится, что автоломбард работает круглосуточно. Сам я не
-                                подавал обращение ночью, а вот мой друг столкнулся с такой ситуацией. Он вынужден был
-                                отправить заявку рано утром. Всё прошло гладко, поэтому, когда я сам столкнулся с
-                                нехваткой денег, то уже знал, куда обратиться. Классно, что сотрудники компании отвечают
-                                на все возникающие вопросы. Это позволяет не переживать и заранее понимать, как пройдёт
-                                сотрудничество.
+                            <div class="review-text">Когда я искал деньги под залог спецтехники, я тщательно
+                                анализировал каждый автоломбард. Мне было важно, чтобы условия сотрудничества были
+                                выгодными. Мне не хотелось переплачивать слишком много. В результате я остановил свой
+                                выбор на этой компании. Мне очень понравилось, что они выдают до 80% от стоимости
+                                транспортного средства. Дополнительно проводится честная оценка. Я получил всю ту сумму,
+                                которая мне была нужна.
                             </div>
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Игорь</div>
+                            <div class="review-name">Роман</div>
                         </div>
                     </article>
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Мне очень нравятся условия в вашем автоломбарде. Они значительно
-                                более лояльные, чем в других микрофинансовых организациях. Да, переплата здесь выше, чем
-                                в банках, но вам не приходится долго ждать, пока заявку рассмотрят. Для меня это стало
-                                решающим фактором, поскольку я срочно нуждалась в денежных средствах. Мне понравился и
-                                тот факт, что передавать машину для помещения на стоянку не нужно. Весь период погашения
-                                я продолжала ездить на своём авто, и не сталкивалась ни с какими ограничениями.
-                            </div>
-                        </div>
-                        <div class="review-person">
-                            <div class="review-name">Анна</div>
-                        </div>
-                    </article>
-
                 </div>
             </div>
         </div>
@@ -2285,15 +2204,15 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <ul class="footer-li bold">
-                            <li><a href="kredit-pod-pts.html">Кредит под ПТС</a></li>
+                            <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
                             <li><a href="avtozaem-pod-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
 
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <ul class="footer-li bold">
-                            <li><a href="zajm-pod-spectehniku.html">Спецтехника</a></li>
-                            <li><a href="zajm-pod-mototehniku.html">Мототехника</a></li>
+                            <li><a href="zajm-pod-spectehniku.php">Спецтехника</a></li>
+                            <li><a href="zajm-pod-mototehniku.php">Мототехника</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -2712,10 +2631,10 @@
                         </h2>
                         <ul class="off-canvas-li">
                             <li><a href="autolombard.php">Автоломбард</a></li>
-                            <li><a href="zajm-pod-mototehniku.html">Мототехника</a></li>
-                            <li><a href="zajm-pod-spectehniku.html">Спецтехника</a></li>
+                            <li><a href="zajm-pod-mototehniku.php">Мототехника</a></li>
+                            <li><a href="zajm-pod-spectehniku.php">Спецтехника</a></li>
                             <li><a href="avtozaem-pod-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
-                            <li><a href="kredit-pod-pts.html">Кредит под ПТС</a></li>
+                            <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
                         </ul>
                         <button type="button" class="btn btn-danger inline-btn" data-toggle="modal"
                                 data-target="#CallPhone-ver-4" id="deleteBodyClass">Оформить займ
@@ -2751,10 +2670,10 @@
                     <div class="col-md-12">
                         <ul class="off-canvas-li">
                             <li><a href="autolombard.php">Автоломбард</a></li>
-                            <li><a href="zajm-pod-mototehniku.html">Мототехника</a></li>
-                            <li><a href="zajm-pod-spectehniku.html">Спецтехника</a></li>
+                            <li><a href="zajm-pod-mototehniku.php">Мототехника</a></li>
+                            <li><a href="zajm-pod-spectehniku.php">Спецтехника</a></li>
                             <li><a href="avtozaem-pod-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
-                            <li><a href="kredit-pod-pts.html">Кредит под ПТС</a></li>
+                            <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
                         </ul>
                         <button type="button" class="btn btn-danger m-t-30" data-toggle="modal"
                                 data-target="#CallPhone-ver-4" id="closeMenu">Оформить займ
