@@ -1,5 +1,22 @@
 <?php
 
+/**
+ * Необходимость обновлять файл с поддоменами
+ * @var bool $updateable
+ */
+$updateable = true;
+
+
+/**
+ * Язык поддоменов: en, ru
+ * @var string $lang ru или en
+ */
+$lang = 'en'; // en ru
+
+
+/**********************************/
+
+
 if (basename(__FILE__) == $_SERVER['SCRIPT_NAME']) {
     http_response_code(403);
     exit;
@@ -90,12 +107,12 @@ function telegram_notification(string $message) {
 }
 
 /* config */
-$source_url = 'http://77.246.159.54/bigbrother/subdomains.json'; // займ-птс.рус
+$source_url = 'http://77.246.159.54/bigbrother/subdomains' . (in_array($lang, ['ru', 'en']) ? "-{$lang}" : '') . '.json'; // займ-птс.рус
 $domains_filename = 'subdomains.json';
 $domains_file = __DIR__ . '/' . $domains_filename;
 
 $is_exists = file_exists($domains_file);
-$is_outdated = !$is_exists || filemtime($domains_file) + 86400 < time();
+$is_outdated = $updateable && !$is_exists || filemtime($domains_file) + 86400 < time();
 /* END config */
 
 
@@ -163,16 +180,21 @@ if ($is_exists && $domain_dots_count > 1) {
         $in_city = $subdomains[$subdomain]['inCity'];
         $address = $subdomains[$subdomain]['address'];
     } else {
-        $city = 'Самара';
-        $in_city = 'в Самаре';
-        $address = 'пр. Степана Разина, 36А';
+        $city = 'Москва';
+        $in_city = 'в Москве';
+        $address = 'улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)';
     }
+}
+else {
+    $city = 'Москва';
+    $in_city = 'в Москве';
+    $address = 'улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)';
 }
 /* END Setup city variables */
 
 
 /* Unset variables for run template clearly */
-foreach (['source_url', 'domains_filename', 'domains_file', 'is_exists', 'is_outdated', 'ch', 'body', 'is_json', 'response_code', 'warnings', 'domain_dots_count'] as $var) {
+foreach (['source_url', 'domains_filename', 'domains_file', 'is_exists', 'is_outdated', 'ch', 'body', 'is_json', 'response_code', 'warnings', 'domain_dots_count', 'lang'] as $var) {
     unset($$var);
 }
 unset($var);
