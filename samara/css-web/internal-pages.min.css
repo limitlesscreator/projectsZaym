@@ -751,15 +751,18 @@ body .ui-tooltip {
     color: #222;
 }
 .ui-widget-header {
-    background: linear-gradient(168.02deg,  #7C7B89 -2.47%, #013766 132.78%);
+    background: linear-gradient(168.02deg,  #7C7B89 -2.47%, #9b9183 132.78%);
     color: #222;
     font-weight: 700;
 }
 .ui-widget-header a {
     color: #222;
 }
+.yellow-text{
+    color: #e4b61a;
+}
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: #013766;
+    background: #9b9183;
 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
     color: #555;
@@ -1386,6 +1389,7 @@ body .ui-tooltip {
 .calculate-item-input {
     /* color: #fff; */
 }
+
 .application-block .calculate-item-input {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -1400,6 +1404,7 @@ body .ui-tooltip {
     margin-right: 10px;
     font-family: 'MontserratB';
     font-size: 24px;
+
 }
 .calculate-item.application span {
     display: inline-block;
@@ -1411,7 +1416,7 @@ body .ui-tooltip {
     margin-right: 0px;
 }
 .application-block .amount-value, .application-block .calculate-steps, .application-block .title-steps {
-    color:  #7C7B89;
+    color: #e4b61a;
 }
 .amount-value {
     border: 0;
@@ -1429,6 +1434,7 @@ body .ui-tooltip {
     padding: 0;
     margin: 0;
     line-height: 14px;
+    color: #e4b61a;
 }
 .calculate-item .ruble {
     background: url(../../../../avtomarket-markup/images/ruble.svg);
@@ -1669,7 +1675,7 @@ body .ui-tooltip {
     background-color: transparent;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-    color:  #013766;
+    color:  #9b9183;
     text-decoration: none;
 }
 .owl-theme .owl-nav .disabled {
@@ -1763,7 +1769,7 @@ body .ui-tooltip {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     outline: 0;
     font-family: MontserratB;
-    color:  #013766;
+    color:  #9b9183;
     margin-right: 10px;
     vertical-align: middle;
     font-size: 20px;
