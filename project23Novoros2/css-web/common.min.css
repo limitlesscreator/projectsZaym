@@ -18,7 +18,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
 
 
-
 @font-face {
     font-family: MontserratL;
     src: url(../font/Montserrat-Light.eot);
@@ -16830,7 +16829,7 @@ body main.manager-page {
     content: '';
     background: #ffffff;
     height: 101%;
-    width: 280px;
+    width: 290px;
     top: 0;
     -moz-transform: matrix(1, 0, -0.3, 1, 0, 0);
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0);
@@ -17108,6 +17107,10 @@ body main.manager-page {
     padding-left: 50px;
     color: #000000a1;
 }
+
+.review-text, .review-name{
+    color: white
+}
 .example-review-text:after{
     content: '';
     position: absolute;
@@ -17123,16 +17126,16 @@ body main.manager-page {
 
 @media (min-width: 989px){
     .padding-leftOnPc{
-        padding-left: 611px
+        padding-left: 650px
     }
     .padding-leftOnPc2{
-        padding-left: 595px
+        padding-left: 635px
     }
     .padding-leftOnPc3{
-        padding-left: 600px
+        padding-left: 640px
     }
     .magrin-leftButton{
-        margin-left: 595px
+        margin-left: 635px
     }
 }
 
@@ -17417,5 +17420,12 @@ body main.manager-page {
 @media (min-width:1200px) {
     .responceHide {
     margin: 0 0 0 900px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .margin-top-dop {
+        margin-top: 20px;
+        width: 154px;
     }
 }
