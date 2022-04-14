@@ -53,6 +53,10 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+.z-Index{
+    position: relative;
+    z-index: 2;
+}
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -73,9 +77,9 @@ body {
     line-height: 1.8;
     color:  #3e1b0c;
     text-align: left;
-    background-color: #EEEEEE;
+    background-color: white;
     letter-spacing: .01em;
-    background: url('../images/moneyff.png');
+    background: url('../images/patternmoney.png');
 }
 [tabindex="-1"]:focus {
     outline: 0!important;
@@ -2239,25 +2243,25 @@ html{
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    color:  darkred;
+    color: darkblue;
     font-size: 22px;
     z-index: 9000;
     opacity: 0.6;
 }
-.gotopbtn:hover{
+
+  .gotopbtn:hover{
     color: white
 }
-
-/* #64c4d0 */
+/* #1A203C */
 .btn-danger {
     color: #fff;
-    background:  #64c4d0;
+    background:  #1A203C;
 }
 .btn-danger:hover {
     color: #fff;
-    background-color:  #64c4d0;
-    border-color:  #64c4d0;
-    box-shadow: 0 4px 20px #64c4d0;
+    background-color:  #1A203C;
+    border-color:  #1A203C;
+    box-shadow: 0 4px 20px #1A203C;
 }
 .btn-danger.focus, .btn-danger:focus {
     box-shadow: 0 4px 20px #3e1b0c;
@@ -2296,14 +2300,14 @@ html{
 .btn-line-red {
     color:  #3e1b0c;
     background: transparent;
-    border-color:  #64c4d0;
+    border-color:  #1A203C;
     text-decoration: none !important;
 }
 .btn-line-red:hover {
-    color:  #64c4d0;
+    color:  #1A203C;
     background-color: #ffffff1a;
-    border-color:  #64c4d0;
-    box-shadow: 0 4px 20px #64c4d0;
+    border-color:  #1A203C;
+    box-shadow: 0 4px 20px #1A203C;
 }
 .btn-line-red.focus, .btn-line-red:focus {
     box-shadow: 0 4px 20px #3e1b0c;
@@ -3893,24 +3897,23 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .review-bg-red-border{
     position: relative;
 }
-be3f27
 .red-border{
     text-align: center;
-    border: 7px solid #FBDDDD;
+    border: 7px solid #A4875A;
     border-radius: 25px;
     padding: 50px;
     position: relative;
 }
-.red-border:after{
-    background-image: url(../images/ugol.png);
-    width: 56px;
-    height: 58px;
-    position: absolute;
-    content: '';
-    right: 100px;
-    bottom: -58px;
-    background-position: bottom;
-}
+/*.red-border:after{*/
+/*    background-image: url(../images/ugol.png);*/
+/*    width: 56px;*/
+/*    height: 58px;*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    right: 100px;*/
+/*    bottom: -58px;*/
+/*    background-position: bottom;*/
+/*}*/
 .review-bg-no:after{
     width: 50px;
     height: 38px;
@@ -13315,6 +13318,7 @@ footer p {
     }
 }
 .ofices {
+
     height: 500px;
     position: relative;
     border-radius: 25px!important;
@@ -13335,8 +13339,13 @@ footer p {
 .ofices.map-right {
     float: right;
 }
-.ofices.map-all-width{
-
+.bgForMap{
+    background: #A4875A;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+.mapOptions__addresses gradient{
+ background: green;
 }
 fieldset.mapOptions__region a {
     color: #fff;
@@ -13370,7 +13379,7 @@ fieldset.mapOptions__region .regi {
     width: 100%;
     border: 0;
     padding: 12px 30px;
-    background:  #3e1b0c;
+    background:  white;
     border-radius: 25px 25px 25px 0;
     font-family: MontserratB;
 }
@@ -13449,10 +13458,10 @@ fieldset.mapOptions__region span {
     padding: 10px;
 }
 .mapOptions__addresses.gradient a.mapOptions__addresses_a {
-    color: #3e1b0c;
+    color: ghostwhite;
 }
 .mapOptions__addresses.white a.mapOptions__addresses_a {
-    color:  #3e1b0c;
+    color:  ghostwhite;
 }
 
 .mapOptions__addresses.white a.mapOptions__addresses_a,
@@ -13823,7 +13832,7 @@ span.days {
     font-size: 18px;
     line-height: 33px;
     text-decoration-line: underline;
-    color: #9A5031;
+    color: #A4875A;
     display: block;
     padding-right: 50px;
     background: url(../images/icon/project23/arrow.png);
@@ -15070,7 +15079,7 @@ a.police-item-link {
     width: auto;
     max-width: 180px;
     background: transparent;
-    color: #64c4d0;
+    color: #1A203C;
     border-radius: 0;
     padding: 15px 0 20px;
     margin-right: 30px;
