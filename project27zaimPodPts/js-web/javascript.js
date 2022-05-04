@@ -1165,13 +1165,13 @@ $(function () {
         });
     };
     let messages = [
-        "<img src='images/icon/sedan.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, новая заявка",
-        "<img src='images/icon/wagon.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, проверка документов",
-        "<img src='images/icon/hatchback.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, новая заявка",
-        "<img src='images/icon/crossover.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, проверка документов",
-        "<img src='images/icon/bike.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, новая заявка",
-        "<img src='images/icon/truck.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, проверка документов",
-        "<img src='images/icon/tractor.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2015</span>, Новороссийск, выдано 300 000 ₽, новая заявка",
+        "<img src='images/icon/sedan.svg' alt=''> <span class='text-bold text-blue'>Mazda CX-9 2018</span>, Ейск, выдано 520 000 ₽, новая заявка",
+        "<img src='images/icon/wagon.svg' alt=''> <span class='text-bold text-blue'>Toyota Camry 2009</span>, Ейск, выдано 340 000 ₽, проверка документов",
+        "<img src='images/icon/hatchback.svg' alt=''> <span class='text-bold text-blue'> Fiat Panda 2007</span>, Ейск, выдано 250 000 ₽, новая заявка",
+        "<img src='images/icon/crossover.svg' alt=''> <span class='text-bold text-blue'>GMC Acadia 2017</span>, Ейск, выдано 300 000 ₽, проверка документов",
+        "<img src='images/icon/bike.svg' alt=''> <span class='text-bold text-blue'>Nissan Altima 2015</span>, Ейск, выдано 430 000 ₽, новая заявка",
+        "<img src='images/icon/truck.svg' alt=''> <span class='text-bold text-blue'>Mazda 3y 2013</span>, Ейск, выдано 300 000 ₽, проверка документов",
+        "<img src='images/icon/tractor.svg' alt=''> <span class='text-bold text-blue'>GMC Sierra 2020</span>, Ейск, выдано 1 200 000 ₽, новая заявка",
     ];
     $('#deals').hide();
     nextMsg(0);
